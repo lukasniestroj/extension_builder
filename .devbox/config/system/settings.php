@@ -2,8 +2,7 @@
 return [
     'BE' => [
         'debug' => false,
-        'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$argon2i$v=19$m=16384,t=16,p=2$NHRRakR4a1VIaXhwcXVtYQ$pt8ySy8esoakVxigXIHjSIq7TMWKOGyeJmq6BvUPv1g',
+        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$dzNKL2ZHeE13Y2lLYmxCMQ$OfprnDnpdWCcEMzKQvjljU+BYU+ffGH7H0OceYA+8dw',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
             'options' => [],
@@ -62,29 +61,6 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '1',
         ],
-        'indexed_search' => [
-            'catdoc' => '/usr/bin/',
-            'debugMode' => '0',
-            'deleteFromIndexAfterEditing' => '1',
-            'disableFrontendIndexing' => '0',
-            'enableMetaphoneSearch' => '1',
-            'flagBitMask' => '192',
-            'fullTextDataLength' => '0',
-            'ignoreExtensions' => '',
-            'indexExternalURLs' => '0',
-            'maxAge' => '0',
-            'maxExternalFiles' => '5',
-            'minAge' => '24',
-            'pdf_mode' => '20',
-            'pdftools' => '/usr/bin/',
-            'ppthtml' => '/usr/bin/',
-            'trackIpInStatistic' => '2',
-            'unrtf' => '/usr/bin/',
-            'unzip' => '/usr/bin/',
-            'useCrawlerForExternalFiles' => '0',
-            'useMysqlFulltext' => '0',
-            'xlhtml' => '/usr/bin/',
-        ],
     ],
     'FE' => [
         'debug' => false,
@@ -100,7 +76,6 @@ return [
         'processor_effects' => true,
         'processor_enabled' => true,
         'processor_path' => '/usr/bin/',
-        'processor_path_lzw' => '/usr/bin/',
     ],
     'LOG' => [
         'TYPO3' => [
@@ -135,9 +110,6 @@ return [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                 ],
                 'pages' => [
-                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
-                ],
-                'pagesection' => [
                     'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\Typo3DatabaseBackend',
                 ],
                 'rootline' => [

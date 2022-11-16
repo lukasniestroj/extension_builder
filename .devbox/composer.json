@@ -15,12 +15,10 @@
         }
     ],
     "require": {
-        "typo3/minimal": "^11.5",
-        "typo3/cms-introduction": "~4.0",
-        "typo3/cms-belog": "^10.4 || ^11.5",
-        "bk2k/bootstrap-package": "^12",
-        "helhum/typo3-console": "*",
-        "friendsoftypo3/extension-builder": "*@dev"
+        "typo3/minimal": "12.0.0",
+        "typo3/cms-belog": "12.0.0",
+        "bk2k/bootstrap-package": "dev-master",
+        "friendsoftypo3/extension-builder": "@dev"
     },
     "repositories": [
         {

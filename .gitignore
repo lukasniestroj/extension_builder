@@ -28,3 +28,5 @@ sass-lint.html
 .devbox/.ddev/nginx_full/
 .devbox/.ddev/providers/
 .devbox/.ddev/xhprof/
+.devbox/public/_assets
+.devbox/composer.lock
