@@ -18,6 +18,7 @@
         "typo3/minimal": "12.0.0",
         "typo3/cms-belog": "12.0.0",
         "bk2k/bootstrap-package": "dev-master",
+		"ssch/typo3-rector": "^1.0",
         "friendsoftypo3/extension-builder": "@dev"
     },
     "repositories": [
